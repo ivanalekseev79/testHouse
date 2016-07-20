@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2To-SE-Bpa">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Wizard View Controller-->
+        <scene sceneID="50R-cS-m7p">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep1" id="PzA-qT-KbY" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NHT-Ry-vy7"/>
+                        <viewControllerLayoutGuide type="bottom" id="jYz-se-uPJ"/>
+                    </layoutGuides>
+                    <view key="view" tag="1" contentMode="scaleToFill" id="wYA-G2-dmt">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="azZ-2t-vJE"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HeA-Ag-Rs9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="489"/>
+        </scene>
+        <!--Wizard View Controller-->
+        <scene sceneID="8F7-aW-61c">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep2" id="ib6-OK-Lmj" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7zJ-VN-aRV"/>
+                        <viewControllerLayoutGuide type="bottom" id="wsD-ME-i8m"/>
+                    </layoutGuides>
+                    <view key="view" tag="2" contentMode="scaleToFill" id="jHj-2N-gEA">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVG-sS-NdL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1840" y="489"/>
+        </scene>
+        <!--Wizard View Controller-->
+        <scene sceneID="JfO-74-IOa">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep3" id="WoF-pb-f6T" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TXE-jT-05n"/>
+                        <viewControllerLayoutGuide type="bottom" id="OY8-0W-Caq"/>
+                    </layoutGuides>
+                    <view key="view" tag="3" contentMode="scaleToFill" id="Ffg-LZ-aOL">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Sw-GL-qvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2628" y="489"/>
+        </scene>
+        <!--Wizard View Controller-->
+        <scene sceneID="Xdu-Vm-XML">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep4" id="aVe-GF-bE9" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nr0-n5-9ZH"/>
+                        <viewControllerLayoutGuide type="bottom" id="kSh-8L-BOP"/>
+                    </layoutGuides>
+                    <view key="view" tag="4" contentMode="scaleToFill" id="iBc-vM-AM8">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pat-Nm-Ndg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3422" y="489"/>
+        </scene>
+        <!--Wizard View Controller-->
+        <scene sceneID="ewg-8G-sIz">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep5" id="w3X-AZ-2zt" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nYf-jm-M2u"/>
+                        <viewControllerLayoutGuide type="bottom" id="NXT-xl-rXO"/>
+                    </layoutGuides>
+                    <view key="view" tag="5" contentMode="scaleToFill" id="geh-8r-1qg">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9P-p7-Jyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4214" y="489"/>
+        </scene>
+        <!--Wizard View Controller-->
+        <scene sceneID="NiP-ig-Jnc">
+            <objects>
+                <viewController storyboardIdentifier="wizardStep6" id="vFp-VI-ITa" customClass="THWizardViewController" customModule="testHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ov8-yi-exV"/>
+                        <viewControllerLayoutGuide type="bottom" id="zO5-Dw-CWo"/>
+                    </layoutGuides>
+                    <view key="view" tag="6" contentMode="scaleToFill" id="5yC-nf-78i">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YaM-6U-0Uq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5007" y="489"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hu8-YA-4HB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2To-SE-Bpa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="6Y8-Mh-v4B">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PzA-qT-KbY" kind="relationship" relationship="rootViewController" id="BCX-OV-Ei3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rA-B3-kkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="489"/>
+        </scene>
+    </scenes>
+</document>
